@@ -30,8 +30,8 @@ const RESOURCES = {
 "assets/assets/image/system/logo.png": "cbb8e407a4049aa0386d0c03d89cc823",
 "assets/assets/image/system/error.png": "501f691a5a68573d20450b43e4d408bd",
 "assets/NOTICES": "8cc459f4e68a9c89bcd94f356b45edce",
-"index.html": "a8548064ab7e928d37bfd766ce887cf6",
-"/": "a8548064ab7e928d37bfd766ce887cf6",
+"index.html": "ac3a5d2a891e1c0f7f0cae83361e93c0",
+"/": "ac3a5d2a891e1c0f7f0cae83361e93c0",
 "favicon.webp": "5308586dec554fef51ccfed40f79076e",
 "version.json": "092d0cd4393bccdb08f2fcd7290d6a1f"
 };
