@@ -1,1 +1,0 @@
-flutter build web -t lib\main_test.dart --base-href / --web-renderer html
