@@ -1,0 +1,19 @@
+{
+  "id": 1,
+  "name": "bug反馈",
+  "logo": "/images/encode/other-210519012929-lRlx.jpg",
+  "followCount": 23,
+  "followed": true,
+  "viewCount": 7859,
+  "postCount": 171,
+  "topList": [
+    {
+      "id": 265,
+      "title": "纯文本换行样式爆炸小说汇总"
+    },
+    {
+      "id": 6,
+      "title": "遇到bug请先反思一下自己"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'tag.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Tag _$TagFromJson(Map<String, dynamic> json) => Tag(
+      id: json['id'] as int?,
+      name: json['name'] as String?,
+      parentId: json['parentId'] as int?,
+      children: (json['children'] as List<dynamic>?)
+          ?.map((e) => Tag.fromJson(e as Map<String, dynamic>))
+          .toList(),
+    );
+
+Map<String, dynamic> _$TagToJson(Tag instance) => <String, dynamic>{
+      'id': instance.id,
+      'name': instance.name,
+      'parentId': instance.parentId,
+      'children': instance.children?.map((e) => e.toJson()).toList(),
+    };

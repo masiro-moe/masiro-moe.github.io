@@ -1,0 +1,1 @@
+flutter build apk -t lib\main_test.dart

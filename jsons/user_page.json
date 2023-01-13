@@ -1,0 +1,88 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "name": "真白",
+      "avatar": "/images/encode/other-210520114814-Irtq.jpg",
+      "experience": 16455,
+      "follow": false,
+      "level": 6
+    },
+    {
+      "id": 2,
+      "name": "taroxd",
+      "avatar": "/images/encode/other-210519094019-nczD.jpeg",
+      "experience": 23362,
+      "follow": false,
+      "level": 6
+    },
+    {
+      "id": 3,
+      "name": "刀剑神域的路人",
+      "avatar": "/images/encode/other-210520010113-nXBa.jpg",
+      "experience": 3147,
+      "follow": false,
+      "level": 5
+    },
+    {
+      "id": 4,
+      "name": "土女",
+      "avatar": "/images/encode/other-210612011104-GiJG.jpg",
+      "experience": 10239,
+      "follow": false,
+      "level": 6
+    },
+    {
+      "id": 5,
+      "name": "巨大橘子",
+      "avatar": "/images/encode/other-210519150936-j1ws.jpg",
+      "experience": 50,
+      "follow": false,
+      "level": 2
+    },
+    {
+      "id": 7,
+      "name": "七七七千爱",
+      "avatar": "/images/encode/other-210521000450-xF4F.jpg",
+      "experience": 7615,
+      "follow": false,
+      "level": 5
+    },
+    {
+      "id": 8,
+      "name": "耐斯",
+      "avatar": "/images/encode/other-210519131745-ocXE.jpg",
+      "experience": 1670,
+      "follow": false,
+      "level": 4
+    },
+    {
+      "id": 9,
+      "name": "香风智乃",
+      "avatar": "/images/encode/other-210610121812-wpSX.jpg",
+      "experience": 1326,
+      "follow": false,
+      "level": 4
+    },
+    {
+      "id": 10,
+      "name": "鼠咖",
+      "avatar": "/images/encode/other-210520184648-QCYv.jpg",
+      "experience": 12865,
+      "follow": false,
+      "level": 6
+    },
+    {
+      "id": 11,
+      "name": "卡斯特里安",
+      "avatar": "/images/encode/other-210519173739-iS3J.jpg",
+      "experience": 6343,
+      "follow": false,
+      "level": 5
+    }
+  ],
+  "total": 16406,
+  "pages": "1641",
+  "pageNum": "1",
+  "pageSize": "10"
+}

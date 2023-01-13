@@ -1,0 +1,20 @@
+{
+  "id": 1,
+  "userId": 10044,
+  "user": {
+    "name": "KPZ70",
+    "avatar": "/masiroImg/header-default.jpg",
+    "experience": 12,
+    "level": 1
+  },
+  "type": 1,
+  "typeName": "杂谈",
+  "title": "小说页面点击开启论坛没有反应",
+  "createdAt": 1621362300000,
+  "viewCount": 50,
+  "cost": 0,
+  "needPay": false,
+  "thumbUp": false,
+  "thumbUpCount": 1,
+  "content": "<p>在唯一的小说页面里面，点击开启论坛什么反应也没有。 不知道是不是bug 还说我卡了</p>"
+}

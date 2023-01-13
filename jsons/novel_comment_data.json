@@ -1,0 +1,24 @@
+{
+  "id": 19800,
+  "novelId": 278,
+  "userId": 27584,
+  "user": {
+    "id": 27584,
+    "name": "romacinig",
+    "avatar": "/masiroImg/header-default.jpg",
+    "level": 1
+  },
+  "parentId": 0,
+  "createdAt": 1624865103000,
+  "topId": 0,
+  "replyUser": 0,
+  "chapterId": 22010,
+  "type": 2,
+  "floor": 1,
+  "thumbUpCount": 1,
+  "thumbUp": true,
+  "hotComment": false,
+  "hotCommentPoint": false,
+  "content": "<p>嚴厲打擊 散播不良風氣的書籍，還有沒有續集？</p>",
+  "replyCount": 1
+}

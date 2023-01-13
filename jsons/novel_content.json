@@ -1,0 +1,27 @@
+{
+  "id": 0,
+  "cid": 0,
+  "nid": 0,
+  "title": "",
+  "translator": 0,
+  "translatorName": "",
+  "porter": 0,
+  "porterName": "",
+  "proofreader": 0,
+  "proofreaderName": "",
+  "polish": 0,
+  "polishName": "",
+  "memo": "",
+  "content": "",
+  "@comment": {
+    "id": "/**\n     * Column: id\n     */",
+    "cid": "/**\n     * Column: cid\n     */",
+    "nid": "/**\n     * Column: nid\n     */",
+    "translator": "/**\n     * Column: translator\n     */",
+    "porter": "/**\n     * Column: porter\n     */",
+    "proofreader": "/**\n     * Column: proofreader\n     */",
+    "polish": "/**\n     * Column: polish\n     */",
+    "memo": "/**\n     * Column: memo\n     */",
+    "content": "/**\n     * Column: content\n     */"
+  }
+}

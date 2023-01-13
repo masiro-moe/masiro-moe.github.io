@@ -1,0 +1,28 @@
+{
+  "list": [
+    {
+      "id": 20486,
+      "userId": 20876,
+      "user": {
+        "id": 20876,
+        "name": "Change",
+        "avatar": "/images/encode/other-210610231447-po2S.png",
+        "level": 1
+      },
+      "createdAt": "2021-06-29 05:00:21",
+      "replyUserId": 27584,
+      "replyUser": {
+        "id": 27584,
+        "name": "romacinig",
+        "avatar": "/masiroImg/header-default.jpg",
+        "level": 1
+      },
+      "thumbUpCount": 0,
+      "content": "<p>口嫌體正直(物理</p>"
+    }
+  ],
+  "total": 1,
+  "pages": 1,
+  "pageNum": 1,
+  "pageSize": 10
+}
