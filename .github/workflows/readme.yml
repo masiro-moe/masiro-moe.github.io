@@ -6,7 +6,7 @@ on:
       - '**.md'
 
 jobs:
-  converttohtml:
+  convert:
     name: Build Html
     runs-on: ubuntu-latest
     steps:
@@ -21,3 +21,12 @@ jobs:
         with:
           name: readme
           path: build
+  deploy:
+    needs: [convert]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v3
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: '*.html'
+          repository: ${{ github.workspace }}
