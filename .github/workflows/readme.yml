@@ -15,8 +15,7 @@ jobs:
         with:
           input_path: README.md
           build_html: true
-      - name: Move
-        run: mv README.html index.html
-      - uses: stefanzweifel/git-auto-commit-action@v4
+          build_pdf: false
+      - uses: actions/upload-artifact@v3
         with:
-          commit_message: convert to html
+          name: README.html
