@@ -1,6 +1,6 @@
-# 站点集合
+# 站点
 
-[真白萌](https://masiro.me/)
+[真白萌](https://masiro.me)
 
 [真白萌 Flutter](https://masiro-moe.github.io/flutter)
 
