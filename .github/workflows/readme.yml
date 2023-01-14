@@ -1,0 +1,33 @@
+name: Docs to Html
+
+on:
+  push:
+    paths:
+      - '**.md'
+
+jobs:
+  convert:
+    name: Build Html
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: BaileyJM02/markdown-to-pdf@v1.2.0
+        with:
+          input_path: README.md
+          output_dir: build
+          build_html: true
+          build_pdf: false
+      - uses: actions/upload-artifact@v3
+        with:
+          name: readme
+          path: build
+  deploy:
+    needs: [convert]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/download-artifact@v3
+      - run: mv ./readme/README.html ./index.html
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: '*.html'
