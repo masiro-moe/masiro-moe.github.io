@@ -1,0 +1,23 @@
+name: Docs to Html
+
+on:
+  push:
+    paths:
+      - '**.md'
+
+jobs:
+  converttohtml:
+    name: Build Html
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          build_html: true
+      - uses: actions/upload-artifact@v1
+        with:
+          name: docs
+          path: pdfs
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: convert to html
