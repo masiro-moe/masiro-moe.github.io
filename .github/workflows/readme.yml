@@ -14,8 +14,10 @@ jobs:
       - uses: BaileyJM02/markdown-to-pdf@v1.2.0
         with:
           input_path: README.md
+          output_dir: build
           build_html: true
           build_pdf: false
       - uses: actions/upload-artifact@v3
         with:
-          name: README.html
+          name: readme
+          path: build
