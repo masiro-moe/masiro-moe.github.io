@@ -6,9 +6,7 @@ on:
   push:
     branches: ["gh-pages"]
     paths:
-      - '!.github/**'
-      - '!*.md'
-      - '!CNAME'
+      - '**.html'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
