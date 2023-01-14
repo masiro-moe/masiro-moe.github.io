@@ -27,7 +27,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/download-artifact@v3
+      - run: mv ./readme/README.html ./index.html
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern: '*.html'
-          repository: ./readme
