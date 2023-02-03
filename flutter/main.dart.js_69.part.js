@@ -12,7 +12,7 @@ if(x==null){x=A.h5(1970,1,1,0,0,0,0,!0)
 if(!A.er(x))A.Q(A.e0(x))
 x=new A.ch(x,!0)}else x=A.f2(x,!1)
 return new B.eu(v,u,t,s,r,q,p,o,x,A.am(w.h(d,"viewCount")),A.cq(w.h(d,"refinement")),A.am(w.h(d,"topPost")),A.am(w.h(d,"limitLv")),A.am(w.h(d,"cost")),A.cq(w.h(d,"needPay")),A.cq(w.h(d,"thumbUp")),A.am(w.h(d,"thumbUpCount")),A.cq(w.h(d,"hotCommentPoint")),A.am(w.h(d,"hb")),A.am(w.h(d,"splitNumber")),A.am(w.h(d,"rate")),A.am(w.h(d,"lastNumber")),A.am(w.h(d,"perCoin")),A.cq(w.h(d,"closeNotice")),A.b2(w.h(d,"content")),A.am(w.h(d,"commentCount")),A.cq(w.h(d,"collected")),A.am(w.h(d,"collectCount")))},
-bc0(d){var x,w=d.d
+bc2(d){var x,w=d.d
 w=w==null?null:A.r0(w)
 x=C.me.h(0,d.e)
 return A.L(["id",d.a,"forumId",d.b,"userId",d.c,"user",w,"type",x,"typeName",d.f,"title",d.r,"createdAt",d.w.a,"updatedAt",d.x.a,"viewCount",d.y,"refinement",d.z,"topPost",d.Q,"limitLv",d.as,"cost",d.at,"needPay",d.ax,"thumbUp",d.ay,"thumbUpCount",d.ch,"hotCommentPoint",d.CW,"hb",d.cx,"splitNumber",d.cy,"rate",d.db,"lastNumber",d.dx,"perCoin",d.dy,"closeNotice",d.fr,"content",d.fx,"commentCount",d.fy,"collected",d.go,"collectCount",d.id],y.w,y.b)},
@@ -53,7 +53,7 @@ J=c[1]
 B.nE.prototype={
 N(){return"ForumPostType."+this.b}}
 B.SH.prototype={
-xv(d,e){return $.b0M().cw(e).d8(0,B.b_c(),y.c)},
+xw(d,e){return $.b0M().cw(e).d8(0,B.b_c(),y.c)},
 vS(d){return $.b0K().cw(d).d8(0,B.b_c(),y.c)}}
 B.eu.prototype={
 cG(){var x,w=this,v=w.d
@@ -65,9 +65,9 @@ B.aiQ.prototype={
 $1(d){return B.aQA(d)},
 $S:z+1};(function installTearOffs(){var x=a._instance_1i,w=a._instance_1u,v=a._static_1
 var u
-x(u=B.SH.prototype,"gep","xv",0)
+x(u=B.SH.prototype,"gep","xw",0)
 w(u,"gvR","vS",0)
-v(B,"bhS","b6Z",1)
+v(B,"bhU","b6Z",1)
 v(B,"b_c","b6Y",2)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
 x(B.nE,A.dM)
 w(A.v,[B.SH,B.eu])
@@ -78,11 +78,11 @@ C.Og=new B.nE(1,"random")
 C.Oh=new B.nE(2,"translate")
 C.Oi=new B.nE(3,"gold")
 C.me=new A.bA([C.Of,"1",C.Og,"2",C.Oh,"3",C.Oi,"4"],A.r("bA<nE,f>"))})();(function lazyInitializers(){var x=a.lazyFinal
-x($,"bmg","b0M",()=>A.cO("/forum/post/page"))
-x($,"bmc","aSh",()=>A.cO("/forum/post/collection"))
-x($,"bmd","b0K",()=>A.cO("/forum/post/collection/page"))
-x($,"bme","b0L",()=>A.cO("/forum/post/detail"))
-x($,"bmi","aSi",()=>A.cO("/forum/post/thumbUp"))
-x($,"bmh","b0N",()=>A.cO("/forum/post/pay"))
-x($,"bmf","oV",()=>new B.SH())})()}
-$__dart_deferred_initializers__["R72lFjrIln2loon/99BVeEsRVLk="] = $__dart_deferred_initializers__.current
+x($,"bmk","b0M",()=>A.cO("/forum/post/page"))
+x($,"bmg","aSh",()=>A.cO("/forum/post/collection"))
+x($,"bmh","b0K",()=>A.cO("/forum/post/collection/page"))
+x($,"bmi","b0L",()=>A.cO("/forum/post/detail"))
+x($,"bmm","aSi",()=>A.cO("/forum/post/thumbUp"))
+x($,"bml","b0N",()=>A.cO("/forum/post/pay"))
+x($,"bmj","oV",()=>new B.SH())})()}
+$__dart_deferred_initializers__["u2FJYQJRpxrxCwd9UJipMntKpRA="] = $__dart_deferred_initializers__.current

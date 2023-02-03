@@ -6,7 +6,7 @@ if(g==null){g=A.h5(1970,1,1,0,0,0,0,!0)
 if(!A.er(g))A.Q(A.e0(g))
 g=new A.ch(g,!0)}else g=A.f2(g,!1)
 return new B.cY(v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,A.b2(w.h(d,"content")))},
-bc2(d){var x,w=d.a
+bc4(d){var x,w=d.a
 w=w==null?null:A.r0(w)
 x=d.b
 x=x==null?null:A.r0(x)
@@ -49,4 +49,4 @@ A.bg(b.typeUniverse,JSON.parse('{"rX":{"S":[]}}'))
 var y={p:A.r("rX"),i:A.r("a3<f,@>"),g:A.r("f"),b:A.r("@")};(function constants(){C.Mw=new B.rX(0,"novel")
 C.Mx=new B.rX(1,"chapter")
 C.mf=new A.bA([C.Mw,"1",C.Mx,"2"],A.r("bA<rX,f>"))})()}
-$__dart_deferred_initializers__["1VP3XewjZHa9xFMZAMu18ZzZE94="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["yoH+shxRRlkVwIAQZ0B2E+AyPSY="] = $__dart_deferred_initializers__.current

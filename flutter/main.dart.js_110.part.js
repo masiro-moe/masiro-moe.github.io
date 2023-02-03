@@ -52,15 +52,15 @@ var z=a.updateTypes(["h1(a3<f,@>)","bU<h1>(a3<f,@>)"])
 B.aiP.prototype={
 $1(d){return B.aXM(d)},
 $S:z+0};(function installTearOffs(){var x=a._static_1
-x(B,"bhT","b6W",0)
+x(B,"bhV","b6W",0)
 x(B,"b_d","b6V",1)})();(function inheritance(){var x=a.inherit
 x(B.aiO,A.v)
 x(B.DT,C.ld)
 x(B.h1,D.P7)
 x(B.aiP,A.b8)})()
 var y={f:A.r("h1"),i:A.r("a3<f,@>"),g:A.r("f"),b:A.r("@")};(function lazyInitializers(){var x=a.lazyFinal
-x($,"bmm","aSj",()=>A.cO("/forum/post/comment/page"))
-x($,"bmk","b0P",()=>A.cO("/forum/post/comment/detail"))
-x($,"bmj","b0O",()=>A.cO("/forum/post/comment/add"))
-x($,"bml","aO4",()=>new B.aiO())})()}
-$__dart_deferred_initializers__["odBjemHW7Cc8d6tGrKCamSpAKPs="] = $__dart_deferred_initializers__.current
+x($,"bmq","aSj",()=>A.cO("/forum/post/comment/page"))
+x($,"bmo","b0P",()=>A.cO("/forum/post/comment/detail"))
+x($,"bmn","b0O",()=>A.cO("/forum/post/comment/add"))
+x($,"bmp","aO4",()=>new B.aiO())})()}
+$__dart_deferred_initializers__["yGdLYLsSoDzIfkcqfAxZl+PpS9Y="] = $__dart_deferred_initializers__.current

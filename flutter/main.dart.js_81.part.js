@@ -35,12 +35,12 @@ var z=a.updateTypes(["eM(a3<f,@>)","bU<eM>(a3<f,@>)"])
 B.abz.prototype={
 $1(d){return B.aXK(d)},
 $S:z+0};(function installTearOffs(){var x=a._static_1
-x(B,"bgq","b41",0)
+x(B,"bgs","b41",0)
 x(B,"aZK","b40",1)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
 x(A.v,[B.aby,B.eM])
 w(B.abz,A.b8)})()
 var y={o:A.r("eM"),g:A.r("f"),b:A.r("@")};(function lazyInitializers(){var x=a.lazyFinal
-x($,"bl8","b0l",()=>A.cO("/announcement/detail"))
-x($,"bla","aS4",()=>A.cO("/announcement/page"))
-x($,"bl9","aO1",()=>new B.aby())})()}
-$__dart_deferred_initializers__["dXDhM7f31khr3pbedGKh9lqgdvk="] = $__dart_deferred_initializers__.current
+x($,"blc","b0l",()=>A.cO("/announcement/detail"))
+x($,"ble","aS4",()=>A.cO("/announcement/page"))
+x($,"bld","aO1",()=>new B.aby())})()}
+$__dart_deferred_initializers__["OJL9lUYmDf8jykwBDpxtkRcwEzg="] = $__dart_deferred_initializers__.current

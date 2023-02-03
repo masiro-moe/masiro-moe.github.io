@@ -19,9 +19,9 @@ $2(d,e){return B.pC("assets/image/novel/cover_default.jpg",null,null,null)},
 $S:91}
 A.aBv.prototype={
 $3(d,e,f){return B.pC("assets/image/novel/cover_default.jpg",null,null,null)},
-$S:77};(function inheritance(){var y=a.inherit
+$S:79};(function inheritance(){var y=a.inherit
 y(A.a2M,B.a2)
 y(A.aBw,B.d2)
 y(A.aBv,B.b8)})()
 B.bg(b.typeUniverse,JSON.parse('{"a2M":{"a2":[],"c":[]}}'))}
-$__dart_deferred_initializers__["y/UqVt53NCFd2yh1lrHSZEMNl8I="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["P9byOFMcIBoagzu4pZEJtX06GIw="] = $__dart_deferred_initializers__.current
