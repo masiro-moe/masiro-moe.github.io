@@ -1,35 +1,34 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B={nb:function nb(){}},A
-B=a.updateHolder(c[43],B)
-A=c[0]
-B.nb.prototype={
-wZ(d){this.iF$.sl(0,d===!0)},
-y8(){var x=0,w=A.a_(y.b),v,u=this,t
-var $async$y8=A.W(function(d,e){if(d===1)return A.X(e,w)
-while(true)switch(x){case 0:if(u.Wb()&&u.iF$.a){x=1
-break}t=u.iF$
-x=t.a?3:5
-break
-case 3:x=6
-return A.a0(u.qe(),$async$y8)
-case 6:x=4
-break
-case 5:x=7
-return A.a0(u.oc(),$async$y8)
-case 7:case 4:t.sl(0,!t.a)
-case 1:return A.Y(v,w)}})
-return A.Z($async$y8,w)},
-Wb(){return!1},
-oc(){var x=0,w=A.a_(y.b)
-var $async$oc=A.W(function(d,e){if(d===1)return A.X(e,w)
-while(true)switch(x){case 0:return A.Y(null,w)}})
-return A.Z($async$oc,w)},
-qe(){var x=0,w=A.a_(y.b)
-var $async$qe=A.W(function(d,e){if(d===1)return A.X(e,w)
-while(true)switch(x){case 0:return A.Y(null,w)}})
-return A.Z($async$qe,w)}}
-var z=a.updateTypes(["ae<~>()"]);(function installTearOffs(){var x=a._instance_0u
-x(B.nb.prototype,"gu3","y8",0)})();(function inheritance(){var x=a.inherit
-x(B.nb,A.v)})()
-var y={b:A.r("~")}}
-$__dart_deferred_initializers__["7VkBfeKT+8HcL0XVrluj4EnxOk8="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__.current=function(a,b,c,$){var A={
+aR6(d){var x=J.aI(d),w=B.an(x.h(d,"id")),v=B.b2(x.h(d,"name")),u=B.an(x.h(d,"parentId"))
+x=y.d.a(x.h(d,"children"))
+return new A.c2(w,v,u,x==null?null:J.jg(x,new A.ayq(),y.l).dJ(0))},
+aR7(d){var x,w=d.d
+if(w==null)w=null
+else{x=B.ab(w).i("a7<1,a4<f,@>>")
+x=B.a5(new B.a7(w,new A.ayr(),x),!0,x.i("be.E"))
+w=x}return B.L(["id",d.a,"name",d.b,"parentId",d.c,"children",w],y.g,y.b)},
+c2:function c2(d,e,f,g){var _=this
+_.a=d
+_.b=e
+_.c=f
+_.d=g},
+ayq:function ayq(){},
+ayr:function ayr(){}},B,J
+A=a.updateHolder(c[34],A)
+B=c[0]
+J=c[1]
+A.c2.prototype={
+cz(){return A.aR7(this)}}
+var z=a.updateTypes(["c2(@)","a4<f,@>(c2)"])
+A.ayq.prototype={
+$1(d){return A.aR6(y.i.a(d))},
+$S:z+0}
+A.ayr.prototype={
+$1(d){return A.aR7(d)},
+$S:z+1};(function inheritance(){var x=a.inherit,w=a.inheritMany
+x(A.c2,B.u)
+w(B.b9,[A.ayq,A.ayr])})()
+B.bm(b.typeUniverse,JSON.parse('{"q8":{"eA":[]}}'))
+var y={i:B.w("a4<f,@>"),g:B.w("f"),l:B.w("c2"),b:B.w("@"),d:B.w("y<@>?")}}
+$__dart_deferred_initializers__["jcRNSTc1HUfAph6qj0Qs8cb5/Tc="] = $__dart_deferred_initializers__.current
