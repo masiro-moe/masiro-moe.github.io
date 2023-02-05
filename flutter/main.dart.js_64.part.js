@@ -1,39 +1,25 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
-$__dart_deferred_initializers__.current=function(a,b,c,$){var C={
-aXw(d,e,f,g){return new C.avj(!0,!0,!0,d,B.L([null,0],y.g,y.e))},
-avj:function avj(d,e,f,g,h){var _=this
-_.a=d
-_.b=e
-_.c=f
-_.f=g
-_.r=h}},J,A,B,D
-C=a.updateHolder(c[38],C)
-J=c[1]
-A=c[65]
-B=c[0]
-D=c[108]
-C.avj.prototype={
-abX(d){var x,w,v,u=null,t=this.r
-if(!t.ai(0,d)){x=t.h(0,u)
-x.toString
-for(w=this.f,v=x;v<w.length;){x=w[v].a
-if(x!=null)t.n(0,x,v)
-if(J.h(x,d)){t.n(0,u,v+1)
-return v}++v}t.n(0,u,v)}else return t.h(0,d)
-return u},
-Yp(d){return this.abX(d instanceof A.B8?d.a:d)},
-mn(d,e){var x,w,v,u,t=null
-if(e<0||e>=this.f.length)return t
-x=this.f[e]
-w=x.a
-v=w!=null?new A.B8(w):t
-x=new B.jB(x,t)
-u=A.aZO(x,e)
-x=u!=null?new A.Ep(u,x,t):x
-return new B.hH(new A.wn(new A.Ba(x,t),t),v)},
-gwt(){return this.f.length},
-us(d){return this.f!==d.f}}
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B={kZ:function kZ(d,e,f,g,h){var _=this
+_.c=d
+_.d=e
+_.e=f
+_.a=g
+_.b=h},
+aQs(d,e,f,g,h){return new C.yt(!1,D.ao,!1,f,h,!0,null,E.aXI(d,!0,!0,!0),g,e,null)}},A,C,D,E
+B=a.updateHolder(c[33],B)
+A=c[0]
+C=c[38]
+D=c[2]
+E=c[39]
+B.kZ.prototype={
+cz(){var x=this,w=A.F(y.g,y.b)
+w.n(0,"userId",x.c)
+w.n(0,"forumId",x.d)
+w.n(0,"refinement",x.e)
+w.O(0,x.qY())
+return w}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(C.avj,A.Z8)})()
-var y={e:B.w("l"),g:B.w("fw?")};(function constants(){D.kq=new B.CE(null)})()}
-$__dart_deferred_initializers__["llD0LBY7+qcbBrJ6J1z4DkXVqas="] = $__dart_deferred_initializers__.current
+x(B.kZ,A.eA)})()
+A.bj(b.typeUniverse,JSON.parse('{"kZ":{"eA":[]}}'))
+var y={g:A.y("f"),b:A.y("@")}}
+$__dart_deferred_initializers__["T3ewhKMcu5QKHBkGwNRYLBPFI6w="] = $__dart_deferred_initializers__.current
