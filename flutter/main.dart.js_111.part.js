@@ -123,7 +123,7 @@ bw(){var x,w
 this.cF()
 x=this.c
 w=x.S(y.d)
-if(w==null)A.Q(A.DQ(A.a([A.to("Scaffold.geometryOf() called with a context that does not contain a Scaffold."),A.bE("This usually happens when the context provided is from the same StatefulWidget as that whose build function actually creates the Scaffold widget being sought."),A.DD('There are several ways to avoid this problem. The simplest is to use a Builder to get a context that is "under" the Scaffold. For an example of this, please see the documentation for Scaffold.of():\n  https://api.flutter.dev/flutter/material/Scaffold/of.html'),A.DD("A more efficient solution is to split your build function into several widgets. This introduces a new context from which you can obtain the Scaffold. In this solution, you would have an outer widget that creates the Scaffold populated by instances of your new inner widgets, and then in these inner widgets you would use Scaffold.geometryOf()."),x.XD("The context used was")],y.p)))
+if(w==null)A.Q(A.DQ(A.a([A.to("Scaffold.geometryOf() called with a context that does not contain a Scaffold."),A.bE("This usually happens when the context provided is from the same StatefulWidget as that whose build function actually creates the Scaffold widget being sought."),A.DD('There are several ways to avoid this problem. The simplest is to use a Builder to get a context that is "under" the Scaffold. For an example of this, please see the documentation for Scaffold.of():\n  https://api.flutter.dev/flutter/material/Scaffold/of.html'),A.DD("A more efficient solution is to split your build function into several widgets. This introduces a new context from which you can obtain the Scaffold. In this solution, you would have an outer widget that creates the Scaffold populated by instances of your new inner widgets, and then in these inner widgets you would use Scaffold.geometryOf()."),x.XE("The context used was")],y.p)))
 this.d=w.r},
 B(d){var x,w,v,u,t,s,r,q,p,o,n,m,l=this,k=null
 A.U(d)
@@ -152,12 +152,12 @@ u.toString
 s=x.f
 if(s==null)s=C.Q
 u=A.mz(!0,new A.by(s,u.c,k),C.Q,!0)
-return A.ee(A.aXd(A.ik(C.J,!0,k,u,C.k,k,q,l.e,k,k,n,k,C.d4),C.k,r,m,q,C.r),p,k)}}
+return A.ee(A.aXd(A.il(C.J,!0,k,u,C.k,k,q,l.e,k,k,n,k,C.d4),C.k,r,m,q,C.r),p,k)}}
 B.a0R.prototype={
 gaoE(){var x,w=this.b,v=w.c
 w=w.b
 w.toString
-x=v.TV(w).a
+x=v.TW(w).a
 if(x!=null)return x
 w=$.B.u$.z.h(0,this.d)
 w=w==null?null:w.gF()
@@ -167,7 +167,7 @@ return w==null?0:w},
 yh(d){var x,w=this,v=w.b,u=v.c
 v=v.b
 v.toString
-v=u.TV(v).b
+v=u.TW(v).b
 x=v==null?null:v.bd(0,0,w.gaoE()*-1)
 v=x==null?null:x.d8(w.e)
 return w.c.azu(new A.z(0,0,0+d.a,0+d.b),v)},
@@ -191,9 +191,9 @@ x.toString
 switch(A.U(x).r.a){case 2:case 4:return""
 case 0:case 1:case 3:case 5:return d.gal()}},
 asZ(d){this.d=C.Z},
-YT(d,e){var x=this.a.c.fy
+YU(d,e){var x=this.a.c.fy
 this.d=new B.azI(x.gl(x),D.rB)},
-asX(d){return this.YT(d,null)},
+asX(d){return this.YU(d,null)},
 B(d){var x,w,v,u,t,s,r,q=this,p=d.S(y.w).f,o=A.fA(d,C.b9,y.y)
 o.toString
 x=q.ad6(o)
@@ -208,11 +208,11 @@ r=o.r
 return A.hz(v,new B.aEV(q,p,x),A.b5n(u,t,w.ey,o.w,o.x,s,!0,new B.aEW(q,d),q.gasW(),q.gasY(),r))}}
 B.FB.prototype={
 gqC(d){return C.hF},
-ga0B(){return C.J},
+gMg(){return C.J},
 gnz(){return!0},
 gmj(){var x=this.f7
 return x==null?C.U:x},
-Xl(){var x=this.a
+Xm(){var x=this.a
 x.toString
 x=A.c6("BottomSheet",C.hF,C.J,null,x)
 this.du=x
@@ -229,10 +229,10 @@ x.toString
 return x},
 j(d){return"<optimized out>#"+A.ca(this)+"("+A.e(this.a)+", "+this.b.j(0)+")"}}
 B.CK.prototype={
-a_a(d,e,f,g,h,i){var x=null
+a_b(d,e,f,g,h,i){var x=null
 A.ar(d,!1,y.V)
 return A.c7(x,A.bi(C.H,new A.bL(e,new B.ae4(),A.aj(A.ap("\u53d1\u9001\u8bc4\u8bba",x,"sendComment",A.a([],y.f),x),x,x,x,x,F.db,x,x),x,y.c),C.k,x,x,new A.cA(C.dW,x,x,D.Jy,x,x,C.a6),x,f,x,g,D.NE,x,x,i),C.x,!1,x,x,x,x,x,x,x,x,x,x,x,h,x,x,x,x,x,x)},
-a_9(d,e,f,g,h){return this.a_a(d,e,f,null,g,h)}}
+a_a(d,e,f,g,h){return this.a_b(d,e,f,null,g,h)}}
 var z=a.updateTypes(["~(iK)","~(jm{isClosing:r?})"])
 B.aEW.prototype={
 $0(){if(this.a.a.c.gmE())A.fd(this.b,!1).i0(null)},
@@ -265,7 +265,7 @@ return w},
 $S:528};(function installTearOffs(){var x=a._instance_1u,w=a.installInstanceTearOff
 var v
 x(v=B.AN.prototype,"gasY","asZ",0)
-w(v,"gasW",0,1,null,["$2$isClosing","$1"],["YT","asX"],1,0,0)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
+w(v,"gasW",0,1,null,["$2$isClosing","$1"],["YU","asX"],1,0,0)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
 x(A.D,[B.Co,B.vZ])
 x(A.L,[B.a0S,B.AN])
 w(B.a0R,A.nn)
@@ -288,4 +288,4 @@ D.OB=new A.dm(58737,"MaterialIcons",null,!0)
 D.lg=new A.dM(D.OB,null,null,null,null)
 D.a95=new A.on(C.jn,null,null)
 D.eH=new A.fU(18,null,null,null)})()}
-$__dart_deferred_initializers__["Z7GeDCfLtDj437uP11w+lo4E/NI="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["UwVqw+gBoYD+amf83S7nqTmrMxI="] = $__dart_deferred_initializers__.current

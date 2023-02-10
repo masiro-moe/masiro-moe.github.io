@@ -82,15 +82,17 @@ w=A.c7(u,A.aj(A.ap("\u4e0a\u4e00\u7ae0",u,"previousChapter",A.a([],x),u),u,u,u,u
 v=A.bi(u,u,C.k,u,u,D.K3,u,u,u,u,u,u,u,u)
 A.ar(d,!0,t)
 return A.bi(u,A.cr(A.a([w,v,A.c7(u,A.aj(A.ap("\u4e0b\u4e00\u7ae0",u,"nextChapter",A.a([],x),u),u,u,u,u,u,u,u),C.x,!1,u,u,u,u,u,u,u,u,u,u,u,new B.aFH(this),u,u,u,u,u,u)],y.u),C.v,u,C.cf,C.u,u,u),C.k,u,u,D.JZ,u,50,u,u,u,u,u,u)},
-Mo(d){var x,w
+Mp(d){var x,w,v
 if(d==null){x=this.c
 x.toString
 A.ar(x,!0,y.A)
 A.wv(A.ap("\u6ca1\u6709\u66f4\u591a\u7ae0\u8282",null,"noMoreChapter",A.a([],y.h),null))
 return}x=this.c
 x.toString
-w=y.w
-A.aQ7(x,"novelContent",A.M(["chapterId",A.e(d)],w,w),C.ap)},
+w=this.f
+w=w==null?null:w.d
+v=y.w
+A.aQ7(x,"novelContent",A.M(["novelId",A.e(w),"chapterId",A.e(d)],v,v),C.ap)},
 gh5(d){return this.f}}
 B.a9I.prototype={}
 var z=a.updateTypes(["~()","jP(q)"])
@@ -123,7 +125,7 @@ return L.Z0(A.bR(A.a([t,A.c7(v,A.bi(C.H,A.aj(A.ap("\u4e0b\u4e00\u7ae0",v,"nextCh
 $S:9}
 B.aFI.prototype={
 $0(){var x=this.a,w=x.f
-return x.Mo(w==null?null:w.y)},
+return x.Mp(w==null?null:w.y)},
 $S:0}
 B.aFK.prototype={
 $3(d,e,f){return e?this.a.aoC(this.b):C.a0},
@@ -162,11 +164,11 @@ $0(){A.fd(this.a,!1).i0(!0)},
 $S:0}
 B.aFG.prototype={
 $0(){var x=this.a,w=x.f
-return x.Mo(w==null?null:w.x)},
+return x.Mp(w==null?null:w.x)},
 $S:0}
 B.aFH.prototype={
 $0(){var x=this.a,w=x.f
-return x.Mo(w==null?null:w.y)},
+return x.Mp(w==null?null:w.y)},
 $S:0};(function installTearOffs(){var x=a._instance_0i
 x(B.KZ.prototype,"ga3W","uF",0)})();(function inheritance(){var x=a.mixin,w=a.inherit,v=a.inheritMany
 w(B.qc,A.D)
@@ -180,4 +182,4 @@ var y=(function rtii(){var x=A.t
 return{h:x("n<v>"),u:x("n<c>"),A:x("cZ"),k:x("bx<bB?>"),r:x("bx<cT?>"),j:x("o2"),w:x("f"),m:x("bL<r>"),e:x("r"),b:x("@")}})();(function constants(){D.JZ=new A.cA(C.m,null,E.qE,null,null,null,C.a6)
 D.JE=new A.cv(C.q,C.q,C.q,E.qC)
 D.K3=new A.cA(null,null,D.JE,null,null,null,C.a6)})()}
-$__dart_deferred_initializers__["u3W04RbgINVXqVxcuzQYvlhiQsg="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["sgJjutAhT/UM+eR+lpyHzacb2bY="] = $__dart_deferred_initializers__.current
