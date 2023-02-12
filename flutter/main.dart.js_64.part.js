@@ -1,25 +1,21 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B={kZ:function kZ(d,e,f,g,h){var _=this
+$__dart_deferred_initializers__.current=function(a,b,c,$){var C={qY:function qY(d,e,f,g,h,i){var _=this
 _.c=d
 _.d=e
 _.e=f
-_.a=g
-_.b=h},
-aQs(d,e,f,g,h){return new C.yt(!1,D.ao,!1,f,h,!0,null,E.aXI(d,!0,!0,!0),g,e,null)}},A,C,D,E
-B=a.updateHolder(c[33],B)
+_.f=g
+_.r=h
+_.a=i}},A,B
+C=a.updateHolder(c[24],C)
 A=c[0]
-C=c[38]
-D=c[2]
-E=c[39]
-B.kZ.prototype={
-cz(){var x=this,w=A.F(y.g,y.b)
-w.n(0,"userId",x.c)
-w.n(0,"forumId",x.d)
-w.n(0,"refinement",x.e)
-w.O(0,x.qY())
-return w}}
+B=c[2]
+C.qY.prototype={
+B(d){var x=this,w=null,v=x.c
+if(v==null)v=0
+v=A.af(""+v,w,w,w,w,A.ff(w,w,w,w,w,w,w,w,w,w,w,x.f,w,w,w,w,w,!0,w,w,w,w,w,w,w,w),w,w)
+return A.c4(w,A.bR(A.a([v,A.af(x.d,w,w,w,w,A.ff(w,w,w,w,w,w,w,w,w,w,w,x.r,w,w,w,w,w,!0,w,w,w,w,w,w,w,w),w,w)],y.a),B.v,w,B.A,B.u),B.w,!1,w,w,w,w,w,w,w,w,w,w,w,x.e,w,w,w,w,w,w)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(B.kZ,A.eA)})()
-A.bj(b.typeUniverse,JSON.parse('{"kZ":{"eA":[]}}'))
-var y={g:A.y("f"),b:A.y("@")}}
-$__dart_deferred_initializers__["T3ewhKMcu5QKHBkGwNRYLBPFI6w="] = $__dart_deferred_initializers__.current
+x(C.qY,A.a3)})()
+A.by(b.typeUniverse,JSON.parse('{"qY":{"a3":[],"c":[]}}'))
+var y={a:A.C("o<c>")}}
+$__dart_deferred_initializers__["wmttHiwTdx5geq9EJIUiLwXgTMI="] = $__dart_deferred_initializers__.current
