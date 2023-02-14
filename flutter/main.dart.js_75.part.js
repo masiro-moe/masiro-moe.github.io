@@ -1,6 +1,6 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B={
-bgO(d){var x=A.e7(d)
+bgO(d){var x=A.e6(d)
 x=x==null?null:x.c
 return A.ade(C.e4,C.hJ,C.kU,x==null?1:x)},
 WN:function WN(d,e,f,g,h,i,j,k,l,m,n){var _=this
@@ -70,20 +70,20 @@ H=c[77]
 R=c[38]
 L=c[25]
 S=c[71]
-M=c[94]
-N=c[96]
+M=c[93]
+N=c[95]
 T=c[74]
 O=c[76]
-U=c[87]
+U=c[100]
 D=c[101]
-V=c[100]
+V=c[99]
 K=c[55]
-W=c[93]
+W=c[92]
 P=c[66]
 X=c[86]
 Y=c[52]
 Z=c[88]
-A_=c[89]
+A_=c[87]
 E=c[57]
 A0=c[56]
 A1=c[72]
@@ -161,12 +161,12 @@ if(v==null)v=""
 x=w?u:x.Q
 x=x==null?"":$.BE().iM(x)
 w=y.p
-return new G.ln(A.c6(u,I.lX(A.cl(A.a([new A.bD(H.e3,t,u),A.cl(A.a([A.af(v+"\n"+x,u,u,u,u,u,C.jL,u),N.lg],w),C.v,u,C.z,C.u,u,u)],w),C.v,u,C.bK,C.u,u,u)),C.x,!1,u,u,u,u,u,u,u,u,u,u,u,new B.aG9(this),u,u,u,u,u,u),u)},
+return new G.ln(A.c6(u,I.lX(A.cl(A.a([new A.bD(H.e3,t,u),A.cl(A.a([A.af(v+"\n"+x,u,u,u,u,u,C.jL,u),N.lg],w),C.v,u,C.z,C.u,u,u)],w),C.v,u,C.bL,C.u,u,u)),C.x,!1,u,u,u,u,u,u,u,u,u,u,u,new B.aG9(this),u,u,u,u,u,u),u)},
 apv(){var x=this,w=null,v=x.c.S(y.w).f,u=x.c
 u.toString
 A.ar(u,!0,y.V)
 u=y.p
-return new G.ln(A.c6(w,I.lX(A.bS(A.a([A.cl(A.a([new A.bD(H.e3,A.af(A.ap("\u8bc4\u8bba\u533a",w,"commentsSection",A.a([],y.f),w),w,w,w,w,M.h7,w,w),w),N.lg],u),C.v,w,C.bK,C.u,w,w),new B.CI(new B.aGc(x,v.a),T.dh,w,y.P)],u),C.v,w,C.z,C.u)),C.x,!1,w,w,w,w,w,w,w,w,w,w,w,new B.aGd(x),w,w,w,w,w,w),w)},
+return new G.ln(A.c6(w,I.lX(A.bS(A.a([A.cl(A.a([new A.bD(H.e3,A.af(A.ap("\u8bc4\u8bba\u533a",w,"commentsSection",A.a([],y.f),w),w,w,w,w,M.h7,w,w),w),N.lg],u),C.v,w,C.bL,C.u,w,w),new B.CI(new B.aGc(x,v.a),T.dh,w,y.P)],u),C.v,w,C.z,C.u)),C.x,!1,w,w,w,w,w,w,w,w,w,w,w,new B.aGd(x),w,w,w,w,w,w),w)},
 aoy(){var x,w,v,u,t,s,r,q=this,p=null,o=q.c
 o.toString
 x=y.V
@@ -178,12 +178,12 @@ w=A.c6(p,A.hh(A.af(w,p,p,p,p,(v==null?p:v.ok)==null?O.da:C.jP,p,p),p,p),C.x,!1,p
 u=q.iI$
 t=y.B
 s=y.p
-t=A.c6(p,A.cl(A.a([new A.bQ(u,new B.aG5(),p,p,t),U.pC,new A.bQ(u,new B.aG6(q),p,p,t)],s),C.v,p,C.d2,C.u,p,p),C.x,!1,p,p,p,p,p,p,p,p,p,p,p,q.gu8(),p,p,p,p,p,p)
+t=A.c6(p,A.cl(A.a([new A.bQ(u,new B.aG5(),p,p,t),U.HL,new A.bQ(u,new B.aG6(q),p,p,t)],s),C.v,p,C.d2,C.u,p,p),C.x,!1,p,p,p,p,p,p,p,p,p,p,p,q.gu8(),p,p,p,p,p,p)
 u=A.rW(p,p,p,p,p,p,p,p,p,p,p,p,p,new A.bw(D.NN,y.L),p,new A.bw(new A.dV(A.acE(20),C.q),y.q),p,p,p,p,p,p)
 r=q.c
 r.toString
 A.ar(r,!0,x)
-return A.bh(p,A.cl(A.a([w,t,new B.WN(new B.aG7(q),p,p,p,u,C.k,p,!1,p,A.af(A.ap("\u5f00\u59cb\u9605\u8bfb",p,"startToRead",A.a([],o),p),p,p,p,p,p,p,p),p)],s),C.v,p,C.fA,C.u,p,p),C.k,p,p,V.qM,p,65,p,p,p,p,p,p)},
+return A.be(p,A.cl(A.a([w,t,new B.WN(new B.aG7(q),p,p,p,u,C.k,p,!1,p,A.af(A.ap("\u5f00\u59cb\u9605\u8bfb",p,"startToRead",A.a([],o),p),p,p,p,p,p,p,p),p)],s),C.v,p,C.fA,C.u,p,p),C.k,p,p,V.qL,p,65,p,p,p,p,p,p)},
 oh(){$.NN()
 var x=this.a.c
 return $.aT7().ca(new A.df(x)).hA()},
@@ -212,7 +212,7 @@ if(A.D(1/0,x,w)<86){r=A.D(1/0,r,q)
 A.D(1/0,x,w)
 w=this.a.d
 q=w==null?s:w.b
-r=A.dX(A.af(q==null?"":q,s,s,s,!1,s,s,s),s,r-112)}else r=s
+r=A.ec(A.af(q==null?"":q,s,s,s,!1,s,s,s),s,r-112)}else r=s
 q=this.a
 x=q.d
 x=K.P0(new B.aG0(),C.hm,s,s,K.a_5(x==null?s:x.w),new B.aG1(),s)
@@ -233,7 +233,7 @@ if(u){A.ar(d,!0,y.V)
 q=q.d.p1
 q.toString
 q=new A.a8(q,new B.aG2(),A.ab(q).i("a8<1,f?>")).bH(0," ")
-w.push(A.af(A.ap("\u7ffb\u8bd1\uff1a"+q,s,"translatorFormat",A.a([q],y.f),s),2,C.az,s,s,s,s,s))}return L.aVt(new A.bD(new A.aE(20,66,20,10+this.b),A.cl(A.a([x,P.h5(new A.bD(D.NJ,A.bS(w,C.bh,s,C.fA,C.u),s),1)],v),C.v,s,C.z,C.u,s,s),s),!0,r)},
+w.push(A.af(A.ap("\u7ffb\u8bd1\uff1a"+q,s,"translatorFormat",A.a([q],y.f),s),2,C.at,s,s,s,s,s))}return L.aVt(new A.bD(new A.aE(20,66,20,10+this.b),A.cl(A.a([x,P.h5(new A.bD(D.NJ,A.bS(w,C.bh,s,C.fA,C.u),s),1)],v),C.v,s,C.z,C.u,s,s),s),!0,r)},
 $S:z+0}
 B.aG1.prototype={
 $2(d,e){return A.pL("assets/image/novel/cover_default.jpg",null,null,null)},
@@ -250,14 +250,14 @@ if((u==null?w:u.p2)==null)return C.a0
 u=u.p2
 u.toString
 x=A.ab(u).i("a8<1,hz>")
-return A.bS(A.a([X.jG,Y.Z5(A.cl(A.a7(new A.a8(u,new B.aGe(v),x),!0,x.i("be.E")),C.v,w,C.z,C.u,w,w),w,C.x,w,w,C.ao)],y.p),C.bh,w,C.z,C.u)},
+return A.bS(A.a([X.jG,Y.Z5(A.cl(A.a7(new A.a8(u,new B.aGe(v),x),!0,x.i("bf.E")),C.v,w,C.z,C.u,w,w),w,C.x,w,w,C.ao)],y.p),C.bh,w,C.z,C.u)},
 $S:557}
 B.aGe.prototype={
 $1(d){var x,w=null,v=this.a.c
 v.toString
 v=A.U(v)
 x=d.b
-return A.bh(w,A.af(x==null?"":x,w,w,w,w,w,C.bP,w),C.k,w,w,new A.hP(C.m,w,w,w,new A.dV(Z.dU,new A.bB(v.fr,1,C.a3,-1))),w,w,w,D.NQ,A_.bW,w,w,w)},
+return A.be(w,A.af(x==null?"":x,w,w,w,w,w,C.bQ,w),C.k,w,w,new A.hP(C.m,w,w,w,new A.dV(Z.dU,new A.bB(v.fr,1,C.a3,-1))),w,w,w,D.NQ,A_.bE,w,w,w)},
 $S:z+1}
 B.aG9.prototype={
 $0(){var x,w=this.a,v=w.c
@@ -275,7 +275,7 @@ return E.dJ(v,"novelCommentPage",A.L(["novelId",""+w.a.c],x,x),C.ap)},
 $S:0}
 B.aGc.prototype={
 $3(d,e,f){var x=A.pd(new A.P(this.b.a-20,270)),w=e.a.length
-return new A.e5(x,w===0?f:F.aY1(!1,3000,null,new B.aGa(e),w,new B.aGb(this.a,e),D.aau),null)},
+return new A.e4(x,w===0?f:F.aY1(!1,3000,null,new B.aGa(e),w,new B.aGb(this.a,e),D.aau),null)},
 $C:"$3",
 $R:3,
 $S:558}
@@ -293,7 +293,7 @@ w=x==null
 v=w?u:x.y
 x=w?u:x.d
 w=y.p
-return A.bh(u,A.bS(A.a([r,D.a9K,A.cl(A.a([new K.kw(v,50,50,u),A2.pB,A.af(x==null?"":x,u,u,u,u,u,u,u)],w),C.v,u,C.z,C.u,u,u)],w),C.v,u,C.bK,C.u),C.k,u,u,new A.cA(C.hA,u,u,s,u,u,C.a6),u,u,u,D.NR,H.e3,u,u,u)},
+return A.be(u,A.bS(A.a([r,D.a9J,A.cl(A.a([new K.kw(v,50,50,u),A2.pB,A.af(x==null?"":x,u,u,u,u,u,u,u)],w),C.v,u,C.z,C.u,u,u)],w),C.v,u,C.bL,C.u),C.k,u,u,new A.cA(C.hA,u,u,s,u,u,C.a6),u,u,u,D.NR,H.e3,u,u,u)},
 $S:559}
 B.aG4.prototype={
 $0(){var x=this.a,w=x.d,v=w==null
@@ -348,6 +348,6 @@ D.OM=new A.dd(983207,"MaterialIcons",null,!1)
 D.OX=new A.dt(D.OM,null,C.ja,null,null)
 D.ON=new A.dd(983208,"MaterialIcons",null,!0)
 D.P2=new A.dt(D.ON,null,null,null,null)
-D.a9K=new A.fC(null,15,null,null)
-D.aau=new F.a_2(A4.qw)})()}
-$__dart_deferred_initializers__["S8ZUc5Hb7zieCc9/vqKv3kwgorY="] = $__dart_deferred_initializers__.current
+D.a9J=new A.fC(null,15,null,null)
+D.aau=new F.a_2(A4.qv)})()}
+$__dart_deferred_initializers__["x/ocGmJYIQEvtFskA1ifgdnWt5A="] = $__dart_deferred_initializers__.current

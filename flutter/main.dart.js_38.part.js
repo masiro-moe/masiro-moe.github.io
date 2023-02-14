@@ -4,11 +4,11 @@ b4U(d){return B.aYA(d)},
 b4T(d){return A.zW(d,new B.abY(),y.o)},
 aYA(d){var x,w=J.aJ(d),v=A.an(w.h(d,"id")),u=A.an(w.h(d,"createdAt"))
 if(u==null){u=A.h7(1970,1,1,0,0,0,0,!0)
-if(!A.et(u))A.Q(A.e0(u))
+if(!A.et(u))A.Q(A.e_(u))
 u=new A.cj(u,!0)}else u=A.f3(u,!1)
 x=A.an(w.h(d,"updatedAt"))
 if(x==null){x=A.h7(1970,1,1,0,0,0,0,!0)
-if(!A.et(x))A.Q(A.e0(x))
+if(!A.et(x))A.Q(A.e_(x))
 x=new A.cj(x,!0)}else x=A.f3(x,!1)
 return new B.hg(v,u,x,A.b2(w.h(d,"title")),A.b2(w.h(d,"brief")),A.cu(w.h(d,"force")),A.an(w.h(d,"creator")),A.b2(w.h(d,"creatorName")),A.cu(w.h(d,"open")),A.an(w.h(d,"rank")),A.b2(w.h(d,"content")))},
 hg:function hg(d,e,f,g,h,i,j,k,l,m,n){var _=this
@@ -44,4 +44,4 @@ var y={o:A.C("hg"),g:A.C("f"),b:A.C("@")};(function lazyInitializers(){var x=a.l
 x($,"blX","b1b",()=>A.cH("/announcement/detail"))
 x($,"blZ","aSO",()=>A.cH("/announcement/page"))
 x($,"blY","aOK",()=>new B.abX())})()}
-$__dart_deferred_initializers__["ocZzT0brnsbLI4pjmBpeWkYa4O0="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["YuavNkt5YVlaJC0QD0/gCCSMwXM="] = $__dart_deferred_initializers__.current
