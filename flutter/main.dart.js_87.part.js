@@ -330,30 +330,31 @@ w=(w==null?0:w)===0}else w=!0
 x.e=w},
 $S:0}
 B.aGn.prototype={
-$1(d){var x=this,w=null,v=x.a,u=v.f,t=u==null,s=t?w:u.at
+$1(d){var x,w=this,v=null,u=w.a,t=u.f,s=t==null,r=s?v:t.at
+if(r==null)r=0
+x=s?v:t.w
+if(r<(x==null?0:x)){A.ar(w.b,!0,y.V)
+u=u.f
+t=u==null
+s=t?v:u.at
 if(s==null)s=0
-u=t?w:u.w
-if(s<(u==null?0:u)){A.ar(x.b,!0,y.V)
-v=v.f
-u=v==null
-t=u?w:v.at
-if(t==null)t=0
-v=u?w:v.w
-if(v==null)v=0
-return A.hi(A.ad(A.ap("\u7b49\u7ea7\u8fc7\u4f4e\n\u4f60\u7684\u5f53\u524d\u7b49\u7ea7\u662f "+t+"\n\u7ae0\u8282\u7b49\u7ea7\u9650\u5236\u4e3a "+v,w,"insufficientLevelPrompt",A.a([t,v],y.f),w),w,w,w,w,H.h7,C.bQ,w),w,w)}u=v.e
-if(u==null)return C.X
-if(!u){u=x.b
-t=A.t0(w,w,w,w,w,w,w,w,w,w,w,w,w,new A.by(C.cQ,y.L),w,w,new A.by(new A.bD(A.V(u).fr,1,C.a4,-1),y.N),w,w,w,w,w)
-A.ar(u,!0,y.V)
-return A.hi(A.fE(A.ad(A.ap("\u8ba2\u9605",w,"subscribe",A.a([],y.f),w),w,w,w,w,I.jO,w,w),v.ga42(v),t),w,w)}u=A.bO("text-align:.*?;|line-height:.*?;",!0,!1)
-u=A.cg('<div style="line-height:1.5;text-align:justify;">\n<p style="text-indent:2em;margin:0;">\u6211\u987a\u7740\u7531\u9999\u7684\u89c6\u7ebf\u770b\u8fc7\u53bb\uff0c\u770b\u6837\u5b50\u5979\u7684\u644a\u4f4d\u5728\u4e24\u5217\u5916\u90a3\u4e00\u5217\u7684\u4e00\u7aef\uff0c\u662f\u6240\u8c13\u7684\u5bff\u661f\u5ea7\u4f4d<span class="ae_noteref" style="vertical-align:super;font-size:x-small;white-space:nowrap;">[\u8bd1\u6ce8]</span>\u3002\u90a3\u91cc\u6709\u4e2a\u770b\u4e0a\u53bb\u5f88\u6e05\u79c0\u7684\u7537\u4eba\uff0c\u4ed6\u6b63\u597d\u5728\u628a\u672c\u5b50\u9012\u7ed9\u987e\u5ba2\u3002<span class="ae_notecontent" style="display:block;text-indent:0;max-width:90vw;width:15em;margin-right:0%;margin-left:auto;">\u8bd1\u6ce8\uff1a\u539f\u6587\u300c\u8a95\u751f\u65e5\u5e2d\u300d\uff0c\u6307\u957f\u65b9\u5f62\u684c\u5b50\u77ed\u8fb9\u7684\u5ea7\u4f4d\uff0c\u5728\u540c\u4eba\u5c55\u4e0a\u6307\u4ee3\u4f4d\u7f6e\u3002</span></p>\n<p style="text-indent:2em;margin:0;">\u2014\u2014\u4ec0\u4e48\u554a\uff0c\u8fd9\u4e0d\u662f\u6709\u7537\u670b\u53cb\u561b\u3002\u300a<ruby>\u7267\u7f8a\u4eba\u8207\u7dcb\u7d05\u8272<rt>\u5e7b\u60f3\u7684\u72a7\u7272</rt></ruby>\u300b</p>\n<p style="text-indent:2em;margin:0;">\u6211\u5e76\u6ca1\u6709\u5728\u671f\u5f85\u4ec0\u4e48\uff0c\u4f46\u7a0d\u5fae\u6709\u90a3\u4e48\u4e00\u70b9\u70b9\u5931\u671b\u3002</p>\n<p style="text-indent:2em;margin:0;">\u679c\u7136\uff0c\u5973\u5b69\u5b50\u65e2\u597d\u61c2\u53c8\u96be\u61c2\u3002\u5982\u679c\u5979\u5e76\u4e0d\u559c\u6b22\u5973\u5b69\u5b50\uff0c\u53c8\u4e3a\u4ec0\u4e48\u8981\u753b\u767e\u5408\u5462\u3002\u8001\u5b9e\u8bf4\uff0c\u5bf9\u6211\u6765\u8bf4\u5360\u987e\u5ba2\u5927\u591a\u6570\u7684\u7537\u5b69\u5b50\u66f4\u5bb9\u6613\u7406\u89e3\u3002\u56e0\u4e3a\uff0c\u4ed6\u4eec\u5bf9\u5973\u5b69\u62b1\u6709\u7684\u611f\u60c5\uff0c\u5c31\u8ddf\u6211\u5bf9\u5973\u5b69\u5b50\u62b1\u6709\u7684\u611f\u60c5\u4e00\u6837\u3002</p>\n<p style="text-indent:2em;margin:0;">\u4f46\u662f\uff0c\u6211\u5e76\u4e0d\u60f3\u6210\u4e3a\u7537\u4eba\u3002</p>\n<p style="text-indent:2em;margin:0;">\u6211\u611f\u89c9\u5230\u9ad8\u6da8\u7684\u5fc3\u60c5\u6025\u5267\u51b7\u5374\u3002</p>\n<p style="text-indent:2em;margin:0;">\u5230\u5934\u6765\uff0c\u6211\u65e2\u4e0d\u660e\u767d\u666e\u901a\u5973\u4eba\u7684\u5fc3\u60c5\uff0c\u4e5f\u4e0d\u660e\u767d\u7537\u4eba\u7684\u5fc3\u60c5\u3002\u8fd9\u4e2a\u5c9b<span class="ae_noteref" style="vertical-align:super;font-size:x-small;white-space:nowrap;">[\u8bd1\u6ce8]</span>\u4e0a\u5230\u5904\u662f\u5973\u5b69\u5b50\u62b1\u5728\u4e00\u8d77\u7684\u753b\u4f5c\uff0c\u6211\u5728\u5176\u4e2d\u5374\u6709\u79cd\u72ec\u81ea\u6eba\u4ea1\u88ab\u51b2\u5230\u65e0\u4eba\u5c9b\u4e0a\u7684\u611f\u89c9\u3002<span class="ae_notecontent" style="display:block;text-indent:0;max-width:90vw;width:15em;margin-right:0%;margin-left:auto;">\u8bd1\u6ce8\uff1a\u539f\u6587\u300c\u5cf6\u300d\u3002\u540c\u4eba\u5c55\u4e2d\u7528\u201c\u5c9b\u201d\u4ee3\u6307\u5c55\u5385\u91cc\u4e0d\u9760\u5899\u7684\u644a\u4f4d\u3002</span></p>\n<p style="text-indent:2em;margin:0;">\u6211\u4e0d\u8bb0\u5f97\u540e\u6765\u804a\u4e86\u4ec0\u4e48\u3002\u4f46\u662f\uff0c\u6211\u611f\u89c9\u5927\u6982\u662f\u7ee7\u7eed\u804a\u4e86\u4e9b\u65e0\u5173\u7d27\u8981\u7684\u8bdd\u9898\u3002\u4ec5\u4ec5\u6d3b\u7740\uff0c\u6211\u5c31\u80fd\u51e0\u4e4e\u6bcf\u5929\u611f\u53d7\u5230\u90a3\u4e9b\u7ec6\u5fae\u7684\u5931\u843d\u3002\u6211\u4e5f\u5dee\u4e0d\u591a\u4e60\u60ef\u85cf\u8d77\u771f\u5fc3\u8bdd\u7136\u540e\u7ef4\u6301\u666e\u901a\u7684\u5bf9\u8bdd\u4e86\u3002</p>\n<p style="text-indent:2em;margin:0;">\u6211\u611f\u89c9\u597d\u50cf\u662f\u8fd9\u65f6\u5019 Hiro \u8fc7\u6765\u6253\u4e86\u62db\u547c\u3002\u5370\u8c61\u91cc\uff0c\u6211\u89c1\u8fc7\u90a3\u4e2a\u6839\u636e\u5730\u5728\u6a2a\u6ee8\u7684\u7403\u961f\u7684\u9752\u8272\u5e3d\u5b50\u3002\u4f46\u662f Hiro \u603b\u4f1a\u6765\u6253\u62db\u547c\uff0c\u4e5f\u603b\u4f1a\u6234\u7740\u90a3\u4e2a\u5e3d\u5b50\uff0c\u6240\u4ee5\u4e5f\u53ef\u80fd\u662f\u5728\u5176\u4ed6\u6d3b\u52a8\u4e0a\u89c1\u5230\u7684\u3002</p>\n<p style="text-indent:2em;margin:0;">\u6211\u4e0d\u8bb0\u5f97\u6211\u8ddf\u7531\u9999\u7684\u5bf9\u8bdd\u662f\u600e\u4e48\u7ed3\u675f\u7684\u3002</p>\n<p style="text-indent:2em;margin:0;">\u56de\u8fc7\u795e\u6765\uff0c\u6211\u7684\u76ee\u5149\u5df2\u7ecf\u5728\u8ffd\u7740\u5979\u56de\u5230\u644a\u4f4d\u7684\u80cc\u5f71\u3002</p>\n<p style="text-indent:2em;margin:0;">\u5979\u548c\u90a3\u4e2a\u7537\u4eba\u83ab\u540d\u5730\u4eb2\u8fd1\uff0c\u4e00\u773c\u4fbf\u80fd\u7aa5\u77e5\u4e24\u4eba\u95f4\u6709\u4eb2\u5bc6\u7684\u5173\u7cfb\u3002\u679c\u7136\u5fc3\u91cc\u8fd8\u662f\u4f1a\u65e0\u6bd4\u70e6\u95f7\u3002\u6709\u79cd\u80e1\u4e71\u6492\u6c14\u7684\u5fc3\u60c5\u6d8c\u4e0a\u6765\uff1a\u4f60\u753b\u7740\u767e\u5408\u600e\u4e48\u8fd8\u8fd9\u6837\u554a\u3002</p>\n<p style="text-indent:2em;margin:0;">\u2014\u2014\u4f46\u662f\u3002</p>\n<p style="text-indent:2em;margin:0;">\u5ffd\u7136\uff0c\u5979\u4e5f\u770b\u5411\u4e86\u6211\u3002</p>\n<p style="text-indent:2em;margin:0;">\u6211\u6765\u4e0d\u53ca\u6487\u5f00\u76ee\u5149\uff0c\u88ab\u5979\u90a3\u699b\u8272\u7684\u773c\u77b3\u6355\u6349\u5230\u4e86\u3002\u5f53\u6211\u4eec\u4e92\u76f8\u51dd\u671b\uff0c\u5373\u5356\u4f1a\u573a\u7684\u4e00\u5207\u4fbf\u5316\u4f5c\u4e86\u80cc\u666f\u3002\u5145\u6ee1\u559c\u60a6\u7684\u5608\u6742\u55a7\u56a3\u4e5f\u597d\uff0c\u5fc3\u6000\u70ed\u60c5\u5feb\u6b65\u884c\u8d70\u7684\u4eba\u4eec\u4e5f\u597d\uff0c\u5c31\u8fde\u81ea\u5df1\u4eca\u5929\u7684\u65b0\u520a\u4e5f\u662f\uff0c\u4e00\u5207\u90fd\u77ac\u95f4\u8fdc\u53bb\uff0c\u6574\u4e2a\u4e16\u754c\u90fd\u586b\u6ee1\u4e86\u5979\u7684\u8eab\u59ff\u3002</p>\n<p style="text-indent:2em;margin:0;">\u7531\u9999\u7684\u8138\u5ffd\u7136\u6cdb\u7ea2\uff0c\u5979\u5728\u80f8\u524d\u5bf9\u6211\u5c0f\u5e45\u6325\u4e86\u6325\u624b\u3002</p>\n<p style="text-indent:2em;margin:0;">\u6211\u6ce8\u610f\u5230\uff0c\u6700\u5f00\u59cb\u89c1\u5230\u7684\u65f6\u5019\uff0c\u5979\u8138\u4e0a\u7684\u7ea2\u6655\u4e0d\u662f\u816e\u7ea2\uff0c\u800c\u662f\u51fa\u4e8e\u5bb3\u7f9e\u3002</p>\n<p style="text-indent:2em;margin:0;">\u80f8\u53e3\u5267\u70c8\u5730\u53d1\u51fa\u58f0\u97f3\u3002</p>\n<p style="text-indent:2em;margin:0;">\u90a3\u542b\u7f9e\u7684\u7b11\u5bb9\uff0c\u5728\u7167\u660e\u4e0b\u95ea\u8000\u7684\u7070\u91d1\u8272\u5934\u53d1\uff0c\u67d4\u7f8e\u7684\u767d\u7699\u6307\u5c16\u3002</p>\n<p style="text-indent:2em;margin:0;">\u6211\u611f\u89c9\u6211\u50cf\u662f\u5f77\u5fa8\u7684\u65c5\u884c\u8005\u6765\u5230\u4e86\u68ee\u6797\u7684\u6cc9\u6c34\u8fb9\uff0c\u9047\u5230\u4e86\u5996\u7cbe\u3002</p>\n<p style="text-indent:2em;margin:0;">\u540e\u6765\u6211\u8bfb\u4e86\u4e00\u4e0b\u5979\u7684\u65b0\u520a\uff0c\u5185\u5bb9\u53ea\u6709\u51ea\u4e00\u4e2a\u52b2\u5bf9\u8bd7\u5b50\u6027\u9a9a\u6270\u3002\u8001\u5b9e\u8bf4\u6211\u90a3\u65f6\u5019\u5c31\u60f3\uff0c\u8fd9\u90fd\u5565\u554a\u3002</p>\n<p style="text-indent:2em;margin:0;"><br/></p>\n<p style="text-indent:2em;margin:0;"><br/></p>\n</div>\n<span style=\'font-family:monospace;font-size:0.5em;color:#efefef;\'>src: 22First half Part02 | mod: 2022-02-11 23:31:04 - git msg \'\u301022\u3011\u5fae\u5c0f\u6539\u52a8\'</span><br>\n<span style=\'font-family:monospace;font-size:0.5em;color:#efefef;\'>masiro-sync.js uploaded at 2022-10-26 09:46 JST</span><br>\n',u,"")
-if(u==null)u=""
-t=A.D(y.D,y.Q)
-t.n(0,G.b1K("ruby"),B.b8Q())
-t.O(0,B.bhh())
-u=E.tM(t,u,!1)
-A.ar(x.b,!0,y.V)
-return K.Zf(A.bT(A.a([u,A.c6(w,A.be(C.H,A.ad(A.ap("\u4e0b\u4e00\u7ae0",w,"nextChapter",A.a([],y.f),w),w,w,w,w,w,w,w),C.k,w,w,F.qL,w,50,w,w,w,w,w,1/0),C.x,!1,w,w,w,w,w,w,w,w,w,w,w,new B.aGm(v),w,w,w,w,w,w)],y.p),C.v,w,C.z,C.u),w,C.x,w,w,C.al)},
+u=t?v:u.w
+if(u==null)u=0
+return A.hi(A.ad(A.ap("\u7b49\u7ea7\u8fc7\u4f4e\n\u4f60\u7684\u5f53\u524d\u7b49\u7ea7\u662f "+s+"\n\u7ae0\u8282\u7b49\u7ea7\u9650\u5236\u4e3a "+u,v,"insufficientLevelPrompt",A.a([s,u],y.f),v),v,v,v,v,H.h7,C.bQ,v),v,v)}r=u.e
+if(r==null)return C.X
+if(!r){t=w.b
+s=A.t0(v,v,v,v,v,v,v,v,v,v,v,v,v,new A.by(C.cQ,y.L),v,v,new A.by(new A.bD(A.V(t).fr,1,C.a4,-1),y.N),v,v,v,v,v)
+A.ar(t,!0,y.V)
+return A.hi(A.fE(A.ad(A.ap("\u8ba2\u9605",v,"subscribe",A.a([],y.f),v),v,v,v,v,I.jO,v,v),u.ga42(u),s),v,v)}t=s?v:t.r
+if(t==null)t=v
+else{s=A.bO("text-align:.*?;|line-height:.*?;",!0,!1)
+t=A.cg(t,s,"")}if(t==null)t=""
+s=A.D(y.D,y.Q)
+s.n(0,G.b1K("ruby"),B.b8Q())
+s.O(0,B.bhh())
+t=E.tM(s,t,!1)
+A.ar(w.b,!0,y.V)
+return K.Zf(A.bT(A.a([t,A.c6(v,A.be(C.H,A.ad(A.ap("\u4e0b\u4e00\u7ae0",v,"nextChapter",A.a([],y.f),v),v,v,v,v,v,v,v),C.k,v,v,F.qL,v,50,v,v,v,v,v,1/0),C.x,!1,v,v,v,v,v,v,v,v,v,v,v,new B.aGm(u),v,v,v,v,v,v)],y.p),C.v,v,C.z,C.u),v,C.x,v,v,C.al)},
 $S:9}
 B.aGm.prototype={
 $0(){var x=this.a,w=x.f
@@ -480,4 +481,4 @@ D.Mg=new A.S(4293284096)
 D.a4G=new A.bx([50,D.MD,100,D.My,200,D.Mw,300,D.Mv,400,D.Mu,500,C.Mt,600,D.Mp,700,D.Mm,800,D.Mj,900,D.Mg],A.C("bx<l,S>"))
 D.a5Y=new A.qb(D.a4G,4294940672)
 D.adZ=new A.B(!0,D.a5Y,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)})()}
-$__dart_deferred_initializers__["gXyMXO6XJsH9Mhmu77hPbidj0JY="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["mI+dZPOyoy6YXhUtnO26Vc4T2aw="] = $__dart_deferred_initializers__.current
