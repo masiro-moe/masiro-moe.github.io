@@ -1,8 +1,8 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B={acc:function acc(){},
-b5B(d){return B.aZg(d)},
-b5A(d){return A.A3(d,new B.acd(),y.o)},
-aZg(d){var x,w=J.aH(d),v=A.ao(w.h(d,"id")),u=A.ao(w.h(d,"createdAt"))
+b5C(d){return B.aZi(d)},
+b5B(d){return A.A3(d,new B.acd(),y.o)},
+aZi(d){var x,w=J.aH(d),v=A.ao(w.h(d,"id")),u=A.ao(w.h(d,"createdAt"))
 if(u==null){u=A.h8(1970,1,1,0,0,0,0,!0)
 if(!A.eu(u))A.Q(A.e1(u))
 u=new A.ch(u,!0)}else u=A.fa(u,!1)
@@ -34,14 +34,14 @@ return A.L(["id",x.a,"createdAt",x.b.a,"updatedAt",x.c.a,"title",x.d,"brief",x.e
 gh7(d){return this.z}}
 var z=a.updateTypes(["hh(a5<f,@>)","bz<hh>(a5<f,@>)"])
 B.acd.prototype={
-$1(d){return B.aZg(d)},
+$1(d){return B.aZi(d)},
 $S:z+0};(function installTearOffs(){var x=a._static_1
-x(B,"bi1","b5B",0)
-x(B,"b0f","b5A",1)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
+x(B,"bi2","b5C",0)
+x(B,"b0h","b5B",1)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
 x(A.u,[B.acc,B.hh])
 w(B.acd,A.bd)})()
 var y={o:A.C("hh"),g:A.C("f"),b:A.C("@")};(function lazyInitializers(){var x=a.lazyFinal
-x($,"bmM","b1T",()=>A.cJ("/announcement/detail"))
-x($,"bmO","aTu",()=>A.cJ("/announcement/page"))
-x($,"bmN","aPp",()=>new B.acc())})()}
-$__dart_deferred_initializers__["d3AsZa3YM+4EE64KOXFdP3JaLbE="] = $__dart_deferred_initializers__.current
+x($,"bmN","b1U",()=>A.cJ("/announcement/detail"))
+x($,"bmP","aTw",()=>A.cJ("/announcement/page"))
+x($,"bmO","aPq",()=>new B.acc())})()}
+$__dart_deferred_initializers__["5FOYtDMGsW6D2hVTTNdUNdVCsAo="] = $__dart_deferred_initializers__.current
