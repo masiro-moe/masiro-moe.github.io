@@ -513,7 +513,7 @@ if(x!=null)x.aU(0)
 this.d=null}}
 A.M8.prototype={
 akJ(d,e){var x=null
-return B.ce(C.ax,this.a.w.$2(d,e),C.x,!1,x,x,x,x,x,x,x,x,x,x,x,new A.aIT(this,e),x,x,x,x,x,x)},
+return B.ci(C.ax,this.a.w.$2(d,e),C.x,!1,x,x,x,x,x,x,x,x,x,x,x,new A.aIT(this,e),x,x,x,x,x,x)},
 af(){var x,w=this
 w.a5e()
 x=w.a
@@ -957,4 +957,4 @@ x($,"boc","b2g",()=>B.cN("/novel/detail"))
 x($,"boa","aTI",()=>B.cN("/novel/collection"))
 x($,"bob","b2f",()=>B.cN("/novel/collection/page"))
 x($,"bod","NK",()=>new A.Xd())})()}
-$__dart_deferred_initializers__["qUqb+sZVLV5VtyIeV7Y/hoZkBLA="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["aVEOjN9E8TBSUN2P2aKfTjCxYWg="] = $__dart_deferred_initializers__.current
