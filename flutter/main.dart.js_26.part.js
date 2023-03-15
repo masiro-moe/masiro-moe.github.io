@@ -1,20 +1,36 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
-$__dart_deferred_initializers__.current=function(a,b,c,$){var A={ij:function ij(d,e){this.a=d
-this.b=e},a3C:function a3C(){},
-I7(d){var y,x
-if(d==null)return""
-y=$.b2r()
-x=y.b
-if(x.test(d))return C.c.i2(d,y,"https://www.masiro.me/flutter/api/images")
-return"https://www.masiro.me/flutter/api"+d}},B,C
-A=a.updateHolder(c[61],A)
-B=c[0]
-C=c[2]
-A.ij.prototype={}
-A.a3C.prototype={}
-var z=a.updateTypes([]);(function inheritance(){var y=a.mixin,x=a.inherit
-x(A.a3C,B.u)
-x(A.ij,A.a3C)
-y(A.a3C,B.aJ)})();(function lazyInitializers(){var y=a.lazyFinal
-y($,"boU","b2r",()=>B.bO("https?://w*\\.?masiro.me/images",!0,!1))})()}
-$__dart_deferred_initializers__["vzcgM+yNfUAgc5KYtDNqspCPZt4="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__.current=function(a,b,c,$){var A={
+af6(d,e,f,g,h,i,j,k,l){var y,x=null
+if(g==null){y=e==null&&k===D.ae
+y=y?E.jx:x}else y=g
+return new A.D2(l,k,!1,e,x,y,j,!1,x,0,x,x,f,F.fr,h,d,x)},
+D2:function D2(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t){var _=this
+_.cx=d
+_.c=e
+_.d=f
+_.e=g
+_.f=h
+_.r=i
+_.w=j
+_.x=k
+_.y=l
+_.z=m
+_.Q=n
+_.as=o
+_.at=p
+_.ax=q
+_.ay=r
+_.ch=s
+_.a=t}},B,C,D,E,F
+A=a.updateHolder(c[38],A)
+B=c[66]
+C=c[0]
+D=c[2]
+E=c[110]
+F=c[112]
+A.D2.prototype={
+Uy(d){return this.cx}}
+var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
+y(A.D2,B.Hp)})()
+C.bz(b.typeUniverse,JSON.parse('{"D2":{"a3":[],"c":[]}}'))}
+$__dart_deferred_initializers__["FhDhku8gSEJ21XhSozR9URC69lg="] = $__dart_deferred_initializers__.current
