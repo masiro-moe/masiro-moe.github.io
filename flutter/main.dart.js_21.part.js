@@ -1,47 +1,51 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B={acc:function acc(){},
-b5E(d){return B.aZo(d)},
-b5D(d){return A.zZ(d,new B.acd(),y.o)},
-aZo(d){var x,w=J.aI(d),v=A.al(w.h(d,"id")),u=A.al(w.h(d,"createdAt"))
-if(u==null){u=A.fS(1970,1,1,0,0,0,0,!0)
-if(!A.ei(u))A.O(A.dW(u))
-u=new A.c4(u,!0)}else u=A.eV(u,!1)
-x=A.al(w.h(d,"updatedAt"))
-if(x==null){x=A.fS(1970,1,1,0,0,0,0,!0)
-if(!A.ei(x))A.O(A.dW(x))
-x=new A.c4(x,!0)}else x=A.eV(x,!1)
-return new B.fG(v,u,x,A.b4(w.h(d,"title")),A.b4(w.h(d,"brief")),A.cs(w.h(d,"force")),A.al(w.h(d,"creator")),A.b4(w.h(d,"creatorName")),A.cs(w.h(d,"open")),A.al(w.h(d,"rank")),A.b4(w.h(d,"content")))},
-fG:function fG(d,e,f,g,h,i,j,k,l,m,n){var _=this
-_.a=d
-_.b=e
-_.c=f
-_.d=g
-_.e=h
-_.f=i
-_.r=j
-_.w=k
-_.x=l
-_.y=m
-_.z=n},
-acd:function acd(){}},A,J
-B=a.updateHolder(c[28],B)
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B={a16:function a16(){},ZF:function ZF(d,e){this.a=d
+this.b=e},
+aPE(d){switch(d.a){case 0:return D.aA
+case 1:return D.aU}},
+aZ6(d,e,f,g,h,i){var x,w,v,u,t,s,r
+if(e==null)return h
+x=i.qy(e,0,h)
+w=i.qy(e,1,h)
+v=g.at
+v.toString
+u=x.a
+t=w.a
+if(u<t)s=Math.abs(v-u)<Math.abs(v-t)?x:w
+else if(v>u)s=x
+else{if(!(v<t)){v=i.c
+v.toString
+r=e.bS(0,y.i.a(v))
+return A.hR(r,h==null?e.gk0():h)}s=w}g.xY(0,s.a,d,f)
+return s.b},
+b1G(d,e,f){var x,w
+switch(e.a){case 0:x=d.am(y.o)
+x.toString
+w=B.aPE(x.w)
+return w
+case 1:return D.G}},
+aYN(d){return new A.uR(null,null,C.aax,d,null)},
+aYO(d,e){var x,w=d.xj(y.b)
+if(w==null)return!1
+x=A.v5(d).lL(d)
+if(w.w.t(0,x))return w.r===e
+return!1}},A,C,D
+B=a.updateHolder(c[74],B)
 A=c[0]
-J=c[1]
-B.acc.prototype={}
-B.fG.prototype={
-cu(){var x=this
-return A.J(["id",x.a,"createdAt",x.b.a,"updatedAt",x.c.a,"title",x.d,"brief",x.e,"force",x.f,"creator",x.r,"creatorName",x.w,"open",x.x,"rank",x.y,"content",x.z],y.g,y.b)},
-gfT(d){return this.z}}
-var z=a.updateTypes(["fG(a6<e,@>)","bD<fG>(a6<e,@>)"])
-B.acd.prototype={
-$1(d){return B.aZo(d)},
-$S:z+0};(function installTearOffs(){var x=a._static_1
-x(B,"bhG","b5E",0)
-x(B,"b0f","b5D",1)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
-x(A.u,[B.acc,B.fG])
-w(B.acd,A.bp)})()
-var y={o:A.B("fG"),g:A.B("e"),b:A.B("@")};(function lazyInitializers(){var x=a.lazyFinal
-x($,"bmt","b1E",()=>A.cN("/announcement/detail"))
-x($,"bmv","aTs",()=>A.cN("/announcement/page"))
-x($,"bmu","aPd",()=>new B.acc())})()}
-$__dart_deferred_initializers__["9O2k1poGgCQcAV25mPN/D7pwAhk="] = $__dart_deferred_initializers__.current
+C=c[118]
+D=c[2]
+B.a16.prototype={
+a_W(d){if(y.h.b(d))++d.fo$
+return!1}}
+B.ZF.prototype={
+K(){return"ScrollViewKeyboardDismissBehavior."+this.b}}
+var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
+x(B.a16,A.u)
+x(B.ZF,A.eQ)})()
+var y={o:A.y("ed"),b:A.y("uR"),i:A.y("p"),h:A.y("i2")};(function constants(){var x=a.makeConstList
+C.fK=new B.ZF(0,"manual")
+C.a9O=new B.ZF(1,"onDrag")
+C.WY=A.a(x([]),A.y("o<eO>"))
+C.a2o=new A.n(0,{},C.WY,A.y("n<eO,aY>"))
+C.aax=new A.cY(C.a2o,A.y("cY<eO>"))})()}
+$__dart_deferred_initializers__["atcMd2VUJ0qTFFrkclrduW6umgI="] = $__dart_deferred_initializers__.current

@@ -1,13 +1,9 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
-$__dart_deferred_initializers__.current=function(a,b,c,$){var A={UG:function UG(d){this.a=d}},B,C,D
-A=a.updateHolder(c[29],A)
-B=c[81]
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A
+B=c[104]
 C=c[0]
-D=c[75]
-A.UG.prototype={
-B(d){return B.a7B}}
-var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.UG,C.a3)})()
-C.bv(b.typeUniverse,JSON.parse('{"UG":{"a3":[],"c":[]}}'));(function constants(){B.kY=new A.UG(null)
-B.a7B=new C.yX(null,D.bB,null,null,null)})()}
-$__dart_deferred_initializers__["bNsZlVSBd9NksTKmljfVx1i9NtA="] = $__dart_deferred_initializers__.current
+A=c[2]
+var z=a.updateTypes([]);(function constants(){B.nl=new C.bq(A.o1,1,A.R,-1)
+B.nn=new C.cC(B.nl,A.p,A.p,A.p)
+B.ns=new C.cv(null,null,B.nn,null,null,null,A.a3)})()}
+$__dart_deferred_initializers__["djnTXR222PqzEJwSme0f8XdX7hc="] = $__dart_deferred_initializers__.current

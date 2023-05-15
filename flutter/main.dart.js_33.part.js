@@ -1,39 +1,20 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
-$__dart_deferred_initializers__.current=function(a,b,c,$){var C={HM:function HM(d,e,f,g,h,i,j){var _=this
-_.a=d
-_.b=e
-_.c=f
-_.d=g
-_.e=h
-_.r=i
-_.w=j}},A,B
-C=a.updateHolder(c[63],C)
-A=c[0]
-B=c[67]
-C.HM.prototype={
-Wl(d){return null},
-lU(d,e){var y,x,w,v,u,t,s,r,q=null
-if(e>=0)v=e>=this.b
-else v=!0
-if(v)return q
-y=null
-try{y=this.a.$2(d,e)}catch(u){x=A.ax(u)
-w=A.aT(u)
-t=new A.bL(x,w,"widgets library",A.bF("building"),q,!1)
-A.dL(t)
-y=$.xc.$1(t)}if(y==null)return q
-if(y.a!=null){v=y.a
-v.toString
-s=new B.B2(v)}else s=q
-v=y
-y=new A.jG(v,q)
-r=this.r.$2(y,e)
-if(r!=null)y=new B.En(r,y,q)
-v=y
-y=new B.wm(new B.B4(v,q),q)
-return new A.hO(y,s)},
-gwb(){return this.b},
-u4(d){return!0}}
-var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(C.HM,B.ZD)})()}
-$__dart_deferred_initializers__["kJK2+vce2IAic5V/lbYpKKIz74U="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__.current=function(a,b,c,$){var A={ir:function ir(d,e){this.a=d
+this.b=e},a6h:function a6h(){},
+I2(d){var y,x
+if(d==null)return""
+y=$.b4t()
+x=y.b
+if(x.test(d))return C.c.hZ(d,y,"https://www.masiro.me/flutter/api/images")
+return"https://www.masiro.me/flutter/api"+d}},B,C
+A=a.updateHolder(c[65],A)
+B=c[0]
+C=c[2]
+A.ir.prototype={}
+A.a6h.prototype={}
+var z=a.updateTypes([]);(function inheritance(){var y=a.mixin,x=a.inherit
+x(A.a6h,B.u)
+x(A.ir,A.a6h)
+y(A.a6h,B.aD)})();(function lazyInitializers(){var y=a.lazyFinal
+y($,"bsw","b4t",()=>B.bQ("https?://w*\\.?masiro.me/images",!0,!1,!1))})()}
+$__dart_deferred_initializers__["ouIgk7r/NbluAZ8uVmoiBGQ8i5w="] = $__dart_deferred_initializers__.current
