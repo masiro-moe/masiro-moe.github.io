@@ -1,20 +1,20 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
-$__dart_deferred_initializers__.current=function(a,b,c,$){var A={iw:function iw(d,e){this.a=d
-this.b=e},a6C:function a6C(){},
-Ik(d){var y,x
+$__dart_deferred_initializers__.current=function(a,b,c,$){var A={iA:function iA(d,e){this.a=d
+this.b=e},a6Q:function a6Q(){},
+Ix(d){var y,x
 if(d==null)return""
-y=$.b5s()
+y=$.b6o()
 x=y.b
-if(x.test(d))return C.d.i2(d,y,"https://www.masiro.me/flutter/api/images")
+if(x.test(d))return C.d.i6(d,y,"https://www.masiro.me/flutter/api/images")
 return"https://www.masiro.me/flutter/api"+d}},B,C
 A=a.updateHolder(c[65],A)
 B=c[0]
 C=c[2]
-A.iw.prototype={}
-A.a6C.prototype={}
+A.iA.prototype={}
+A.a6Q.prototype={}
 var z=a.updateTypes([]);(function inheritance(){var y=a.mixin,x=a.inherit
-x(A.a6C,B.r)
-x(A.iw,A.a6C)
-y(A.a6C,B.aG)})();(function lazyInitializers(){var y=a.lazyFinal
-y($,"btz","b5s",()=>B.bQ("https?://w*\\.?masiro.me/images",!0,!1,!1))})()}
-$__dart_deferred_initializers__["qPT51DaJZ7DMJDt8V0+dmYTlXR4="] = $__dart_deferred_initializers__.current
+x(A.a6Q,B.t)
+x(A.iA,A.a6Q)
+y(A.a6Q,B.aG)})();(function lazyInitializers(){var y=a.lazyFinal
+y($,"buz","b6o",()=>B.bR("https?://w*\\.?masiro.me/images",!0,!1,!1))})()}
+$__dart_deferred_initializers__["sKEssmU2/AzDoFBQyd9XPfTSLbs="] = $__dart_deferred_initializers__.current
