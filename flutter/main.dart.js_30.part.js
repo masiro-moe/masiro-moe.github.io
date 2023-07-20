@@ -1,100 +1,50 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
-$__dart_deferred_initializers__.current=function(a,b,c,$){var A={HU:function HU(){},a_v:function a_v(d,e){var _=this
-_.A$=d
-_.id=null
-_.d=!1
-_.f=_.e=null
-_.w=_.r=!1
-_.x=null
-_.y=!1
-_.z=!0
-_.Q=null
-_.as=!1
-_.at=null
-_.ax=!1
-_.ay=$
-_.ch=e
-_.CW=!1
-_.cx=$
-_.cy=!0
-_.db=!1
-_.dx=null
-_.dy=!0
-_.fr=null
-_.a=0
-_.c=_.b=null},aaz:function aaz(){},aaA:function aaA(){},lX:function lX(d,e){this.c=d
-this.a=e}},D,C,B,E
-A=a.updateHolder(c[53],A)
-D=c[74]
-C=c[2]
-B=c[0]
-E=c[122]
-A.HU.prototype={
-ea(d){if(!(d.e instanceof D.iX))d.e=new D.iX(C.k)},
-FP(d,e,f){var x=d.e
-x.toString
-y.g.a(x)
-switch(B.jH(e.a,e.b)){case C.M:x.a=new B.m(0,-(f.a-(f.c+e.d)))
-break
-case C.b1:x.a=new B.m(-e.d,0)
-break
-case C.K:x.a=new B.m(0,-e.d)
-break
-case C.aK:x.a=new B.m(-(f.a-(f.c+e.d)),0)
-break}},
-qh(d,e,f){var x=this.A$
-if(x!=null)return this.DQ(B.QD(d),x,e,f)
-return!1},
-jS(d){return-y.b.a(B.r.prototype.gX.call(this)).d},
-dO(d,e){var x=d.e
-x.toString
-x=y.g.a(x).a
-e.bR(0,x.a,x.b)},
-aK(d,e){var x,w=this.A$
-if(w!=null&&this.id.w){x=w.e
-x.toString
-d.dm(w,e.a3(0,y.g.a(x).a))}}}
-A.a_v.prototype={
-bK(){var x,w,v,u,t,s,r=this
-if(r.A$==null){r.id=E.k0
-return}x=y.b.a(B.r.prototype.gX.call(r))
-w=r.A$
-w.toString
-w.c3(x.YG(),!0)
-switch(B.bL(x.a).a){case 0:v=r.A$.k3.a
-break
-case 1:v=r.A$.k3.b
-break
-default:v=null}u=r.iO(x,0,v)
-t=r.pD(x,0,v)
-w=D.ic(t,v>x.r||x.d>0,u,null,v,0,u,0,v,null)
-r.id=w
-s=r.A$
-s.toString
-r.FP(s,x,w)}}
-A.aaz.prototype={
-aj(d){var x
-this.dL(d)
-x=this.A$
-if(x!=null)x.aj(d)},
-af(d){var x
-this.dv(0)
-x=this.A$
-if(x!=null)x.af(0)}}
-A.aaA.prototype={}
-A.lX.prototype={
-aO(d){var x=new A.a_v(null,B.au())
-x.aN()
-x.sbl(null)
-return x}}
-var z=a.updateTypes([]);(function inheritance(){var x=a.mixinHard,w=a.mixin,v=a.inherit
-v(A.aaz,D.bE)
-v(A.aaA,A.aaz)
-v(A.HU,A.aaA)
-v(A.a_v,A.HU)
-v(A.lX,B.b0)
-x(A.aaz,B.aS)
-w(A.aaA,D.zN)})()
-B.bv(b.typeUniverse,JSON.parse('{"HU":{"bE":[],"aS":["x"],"r":[],"Y":[],"as":[]},"a_v":{"bE":[],"aS":["x"],"r":[],"Y":[],"as":[]},"lX":{"b0":[],"az":[],"d":[]}}'))
-var y={b:B.z("ib"),g:B.z("iX")}}
-$__dart_deferred_initializers__["lD/hI0Uv9Z8ZVhCwvTHZG4bzoIA="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B={ahL:function ahL(){},
+bev(d){return B.b5V(d)},
+beu(d){return A.BE(d,new B.ahM(),y.o)},
+b5V(d){var x,w=J.as(d),v=A.ap(w.h(d,"id")),u=A.ap(w.h(d,"createdAt"))
+if(u==null){u=A.h_(1970,1,1,0,0,0,0,!0)
+if(!A.dp(u))A.C(A.e6(u))
+u=new A.bI(u,!0)}else u=A.eO(u,!1)
+x=A.ap(w.h(d,"updatedAt"))
+if(x==null){x=A.h_(1970,1,1,0,0,0,0,!0)
+if(!A.dp(x))A.C(A.e6(x))
+x=new A.bI(x,!0)}else x=A.eO(x,!1)
+return new B.ho(v,u,x,A.b7(w.h(d,"title")),A.b7(w.h(d,"brief")),A.cv(w.h(d,"force")),A.ap(w.h(d,"creator")),A.b7(w.h(d,"creatorName")),A.cv(w.h(d,"open")),A.ap(w.h(d,"rank")),A.b7(w.h(d,"content")))},
+ho:function ho(d,e,f,g,h,i,j,k,l,m,n){var _=this
+_.a=d
+_.b=e
+_.c=f
+_.d=g
+_.e=h
+_.f=i
+_.r=j
+_.w=k
+_.x=l
+_.y=m
+_.z=n},
+ahM:function ahM(){}},A,J
+B=a.updateHolder(c[28],B)
+A=c[0]
+J=c[1]
+B.ahL.prototype={}
+B.ho.prototype={
+cN(){var x,w=this,v=w.b
+v=v==null?0:v.a
+x=w.c
+x=x==null?0:x.a
+return A.O(["id",w.a,"createdAt",v,"updatedAt",x,"title",w.d,"brief",w.e,"force",w.f,"creator",w.r,"creatorName",w.w,"open",w.x,"rank",w.y,"content",w.z],y.g,y.b)},
+gfF(d){return this.z}}
+var z=a.updateTypes(["ho(a8<f,@>)","bV<ho>(a8<f,@>)"])
+B.ahM.prototype={
+$1(d){return B.b5V(d)},
+$S:z+0};(function installTearOffs(){var x=a._static_1
+x(B,"bsg","bev",0)
+x(B,"b7Z","beu",1)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
+x(A.o,[B.ahL,B.ho])
+w(B.ahM,A.cf)})()
+var y={o:A.w("ho"),g:A.w("f"),b:A.w("@")};(function lazyInitializers(){var x=a.lazyFinal
+x($,"bx8","b9p",()=>A.d1("/announcement/detail",null))
+x($,"bxa","b_q",()=>A.d1("/announcement/page",null))
+x($,"bx9","aVv",()=>new B.ahL())})()}
+$__dart_deferred_initializers__["IW0EVEsB2VqIBBbumvtrXUf24Sc="] = $__dart_deferred_initializers__.current
