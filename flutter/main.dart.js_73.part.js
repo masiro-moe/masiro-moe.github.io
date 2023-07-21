@@ -9,7 +9,7 @@ B=c[0]
 A=c[2]
 C.Fi.prototype={
 a3t(){var y=this,x=y.d,w=(1-Math.abs(2*x-1))*y.c,v=y.b
-return B.blZ(y.a,v,w,w*(1-Math.abs(A.e.aC(v/60,2)-1)),x-w/2)},
+return B.blX(y.a,v,w,w*(1-Math.abs(A.e.aC(v/60,2)-1)),x-w/2)},
 k(d,e){var y=this
 if(e==null)return!1
 if(y===e)return!0
@@ -20,4 +20,4 @@ j(d){var y=this
 return"HSLColor("+B.j(y.a)+", "+B.j(y.b)+", "+B.j(y.c)+", "+B.j(y.d)+")"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
 y(C.Fi,B.p)})()}
-$__dart_deferred_initializers__["2pfKcd6QJFSHl9EraTjCQ7K9TTY="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["bZVMWGV+6Wh9jGqVEDDV2RdZ1xY="] = $__dart_deferred_initializers__.current
